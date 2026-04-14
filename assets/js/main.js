@@ -1,7 +1,12 @@
 // ========== HEADER SCROLL EFFECT ==========
 const header = document.getElementById('header');
 
+// Pages with header.scrolled in HTML should keep it permanently
+const keepScrolled = header && header.classList.contains('scrolled');
+
 window.addEventListener('scroll', () => {
+    if (!header) return;
+    if (keepScrolled) return; // Don't toggle on product/detail pages
     if (window.scrollY > 80) {
         header.classList.add('scrolled');
     } else {
