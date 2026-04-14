@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalle Producto | Ventas Corporativas</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/detail.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- ========== HEADER ========== -->
+    <header id="header" class="header scrolled">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon"><i class="fas fa-water"></i></span>
+                <span class="logo-text">Ventas Corporativas</span>
+            </a>
+            <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav class="navbar" id="navbar">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link">Inicio</a></li>
+                    <li><a href="index.html#nosotros" class="nav-link">Nosotros</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="nav-link dropdown-toggle active">Productos <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="product.html"><i class="fas fa-faucet-drip"></i> Medidores de Agua</a></li>
+                            <li><a href="product.html?search=electric"><i class="fas fa-bolt"></i> Medidores Electricos</a></li>
+                            <li><a href="product.html?search=accessory"><i class="fas fa-toolbox"></i> Accesorios</a></li>
+                            <li><a href="product.html?search=seals"><i class="fas fa-lock"></i> Precintos de Seguridad</a></li>
+                            <li><a href="product.html?search=equipment"><i class="fas fa-gauge-high"></i> Equipos de Control</a></li>
+                            <li><a href="product.html?search=measurement"><i class="fas fa-clipboard-check"></i> Gestion de Medicion</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="index.html#contacto" class="nav-link">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ========== BREADCRUMB ========== -->
+    <section class="breadcrumb-section">
+        <div class="container">
+            <span class="breadcrumb-cat" id="productCategory">WATER / MICRO</span>
+        </div>
+    </section>
+
+    <!-- ========== PRODUCT DETAIL ========== -->
+    <section class="detail-section">
+        <div class="container">
+            <h1 class="detail-title" id="productTitle">M19 - 15MM - BOOS</h1>
+            <div class="detail-grid">
+                <!-- Left: Product Image -->
+                <div class="detail-image-wrap">
+                    <div class="detail-image">
+                        <img id="productImage" src="assets/img/products/m19-15mm.jpg" alt="Producto">
+                    </div>
+                </div>
+
+                <!-- Right: Product Info -->
+                <div class="detail-info">
+                    <!-- Description -->
+                    <div class="info-block">
+                        <div class="info-header">
+                            <h3>DESCRIPCION</h3>
+                        </div>
+                        <div class="info-content">
+                            <p id="productDescription">Nuevo contador de chorro multiple M19 de BOOS, para uso domiciliario seleccionado en base a nuestra experiencia en el mercado y la necesidad del cliente. Un producto economico con las innovaciones de la NMP 005-2018 con la calidad y experiencia de BOOS.</p>
+                        </div>
+                    </div>
+
+                    <!-- Specifications -->
+                    <div class="info-block">
+                        <div class="info-header">
+                            <h3>ESPECIFICACIONES TECNICAS</h3>
+                        </div>
+                        <div class="info-content">
+                            <ul class="specs-list" id="productSpecs">
+                                <li><i class="fas fa-circle-dot"></i> Esfera extra seca y orientable 360°</li>
+                                <li><i class="fas fa-circle-dot"></i> Pre-instalacion para emisor de pulsos bidireccional.</li>
+                                <li><i class="fas fa-circle-dot"></i> Transmision magnetica sin engranajes en el agua.</li>
+                                <li><i class="fas fa-circle-dot"></i> Rango dinamico hasta R160 y R125</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- CTA -->
+                    <div class="detail-cta">
+                        <a href="index.html#contacto" class="btn btn-primary"><i class="fas fa-envelope"></i> Solicitar Cotizacion</a>
+                        <a href="product.html" class="btn btn-outline-dark"><i class="fas fa-arrow-left"></i> Volver a Productos</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h3><i class="fas fa-water"></i> Ventas Corporativas</h3>
+                    <p>Soluciones en medicion y saneamiento de agua para un futuro sostenible. Comprometidos con la gestion eficiente de los recursos hidricos del Peru.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Enlaces</h4>
+                    <ul>
+                        <li><a href="index.html"><i class="fas fa-angle-right"></i> Inicio</a></li>
+                        <li><a href="index.html#nosotros"><i class="fas fa-angle-right"></i> Nosotros</a></li>
+                        <li><a href="product.html"><i class="fas fa-angle-right"></i> Productos</a></li>
+                        <li><a href="index.html#contacto"><i class="fas fa-angle-right"></i> Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contacto</h4>
+                    <p><i class="fas fa-id-card"></i> RUC: 20393227819</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Manantay, Coronel Portillo, Ucayali</p>
+                    <p><i class="fas fa-phone-alt"></i> +51 967 619 227</p>
+                    <p><i class="fas fa-envelope"></i> jorge@castnegocio.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Ventas Corporativas EIRL. Todos los derechos reservados. | RUC: 20393227819</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/detail.js"></script>
+</body>
+</html>
