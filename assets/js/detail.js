@@ -106,6 +106,76 @@ const products = {
             'Diseno de mecanismo sin friccion.',
             'Piston ranurado anti-deposito de particulas.'
         ]
+    },
+    'v200-15': {
+        category: 'WATER / MICRO',
+        title: 'V200 - 15MM - ELSTER',
+        image: 'assets/img/products/v200-15mm.jpg',
+        description: 'El contador V200P pertenece a la familia de contadores volumetricos de ELSTER IBERCONTA. Diseñado para facturacion de consumos, ofrece alta precision en cualquier posicion de instalacion.',
+        specs: [
+            'Disponible en diametros de 15mm y 20mm.',
+            'Capacidad de flujo de 1.6 a 4 m\u00b3/h.',
+            'Transmision magnetica con proteccion.',
+            'Camara y piston fabricados en polimeros tecnicos de alta resistencia.',
+            'Instalacion en cualquier posicion.',
+            'Alta precision metrologica para facturacion.'
+        ]
+    },
+    'v110-15': {
+        category: 'WATER / MICRO',
+        title: 'V110 - 15MM - ELSTER',
+        image: 'assets/img/products/v110-15mm.jpg',
+        description: 'El principio volumetrico de medicion del piston rotativo garantiza registro incluso a las tasas de flujo mas bajas con mantenimiento de precision sobre el rango de flujo completo.',
+        specs: [
+            'Piston rotativo volumetrico de alta precision.',
+            'Registro garantizado a tasas de flujo minimas.',
+            'Mantenimiento de precision en todo el rango de flujo.',
+            'Diseño compacto para instalaciones residenciales.',
+            'Diametro nominal de 15mm.'
+        ]
+    },
+    'h4000': {
+        category: 'WATER / MACRO',
+        title: 'H4000 - 50MM / 80MM / 100MM / 200MM / 250MM - ELSTER',
+        image: 'assets/img/products/h4000.jpg',
+        description: 'El H4000I ha sido diseñado para la medicion de grandes caudales de agua fria tanto para aplicaciones comerciales como industriales. Dispone de un campo de medida extendido que supera la Clase B metrologica.',
+        specs: [
+            'Esfera encapsulada IP68 con rotacion de 360\u00b0.',
+            'Rango de calibres de 40mm a 300mm.',
+            'Pre-instalacion para emisor de pulsos bidireccional.',
+            'Instalacion horizontal, vertical e inclinada.',
+            'Esfera sellada con carátula rotativa.',
+            'Campo de medida superior a Clase B metrologica.',
+            'Ideal para aplicaciones comerciales e industriales.'
+        ]
+    },
+    'uwr2-15': {
+        category: 'WATER / MICRO',
+        title: 'UWR2-15 ABS Q3 2.5 R500 15MM X 110MM - VIEWSHINE',
+        image: 'assets/img/products/uwr2-15.jpg',
+        description: 'Para uso como el medidor convencional, pero con alta calidad de medicion. Medidores para agua de 1/2" Marca VIEWSHINE modelo U WR2-15. Fabricado en CHINA con tecnologia avanzada de medicion ultrasonica.',
+        specs: [
+            'Diametro nominal de 15mm, longitud 110mm.',
+            'Construccion en ABS de alta resistencia.',
+            'Clasificacion Q3 con factor de capacidad 2.5.',
+            'Designacion R500 de alta precision.',
+            'Tecnologia ultrasonica sin partes moviles.',
+            'Compatible con medidores convencionales.'
+        ]
+    },
+    'shd': {
+        category: 'WATER / MACRO',
+        title: 'SHD - MEDIDOR DE FLUJO ELECTROMAGNETICO',
+        image: 'assets/img/products/shd-electromagnetico.jpg',
+        description: 'El medidor de flujo electromagnetico es un tipo de instrumento inductivo diseñado por la ley de induccion electromagnetica de Faraday para medir el flujo de medios conductivos en tuberias cerradas.',
+        specs: [
+            'Principio de medicion basado en la Ley de Faraday.',
+            'Sin partes moviles, sin perdida de presion.',
+            'Apto para medios conductivos en tuberias cerradas.',
+            'Alta precision en medicion de grandes caudales.',
+            'Ideal para aplicaciones industriales y comerciales.',
+            'Señal de salida proporcional al flujo.'
+        ]
     }
 };
 
